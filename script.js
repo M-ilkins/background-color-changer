@@ -7,7 +7,8 @@ function changeColor(target){
     let b = Math.floor(Math.random() * 256);
     let styleString = `rgb(${r}, ${g}, ${b})`
     document.body.style.backgroundColor = styleString;
-    console.log(styleString);
+    // uncomment (below) to display current color to console!
+    // console.log(styleString);
 }
 
 button.onclick = changeColor;
